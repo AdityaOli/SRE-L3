@@ -1,26 +1,4 @@
 adity@Optimus MINGW64 /d/Code/SRE-L3/starter (master)
-$ kubectl get pods
-NAME                           READY   STATUS    RESTARTS   AGE 
-blue-8475cbdf46-m8zsv          1/1     Running   0          117m
-blue-8475cbdf46-mbfsh          1/1     Running   0          117m
-blue-8475cbdf46-mgs95          1/1     Running   0          117m
-canary-v1-64598c676f-8b8dh     1/1     Running   0          117m
-canary-v1-64598c676f-hnn59     1/1     Running   0          117m
-canary-v1-64598c676f-qb9g8     1/1     Running   0          117m
-canary-v2-5dc9c56687-24jfx     1/1     Running   0          28m 
-canary-v2-5dc9c56687-qdt86     1/1     Running   0          29m 
-canary-v2-5dc9c56687-t95mh     1/1     Running   0          28m 
-hello-world-794458d64d-42b2g   1/1     Running   0          73m 
-nginx                          1/1     Running   0          44m 
-
-adity@Optimus MINGW64 /d/Code/SRE-L3/starter (master)
-$ kubectl get svc
-NAME          TYPE           CLUSTER-IP      EXTERNAL-IP                                                                     PORT(S)        AGE 
-blue-svc      LoadBalancer   172.20.133.84   ad440b27eecad4bca9bbd8f7d6752de2-de0afa76a69b1517.elb.us-east-2.amazonaws.com   80:32226/TCP   122m
-canary-svc    ClusterIP      172.20.91.0     <none>                                                                          80/TCP         40m 
-hello-world   LoadBalancer   172.20.17.196   a1ca5706e711b4f839634566c585b1bc-4a7db50ce5044df9.elb.us-east-2.amazonaws.com   80:30635/TCP   117m
-
-adity@Optimus MINGW64 /d/Code/SRE-L3/starter (master)
 $ kubectl exec -it nginx sh
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 # curl 172.20.91.0

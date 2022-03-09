@@ -1,0 +1,14 @@
+adity@Optimus MINGW64 /d/Code/SRE-L3/starter (master)
+$ kubectl get  pods
+NAME                           READY   STATUS    RESTARTS   AGE 
+blue-8475cbdf46-m8zsv          1/1     Running   0          119m
+blue-8475cbdf46-mbfsh          1/1     Running   0          119m
+blue-8475cbdf46-mgs95          1/1     Running   0          119m
+canary-v1-64598c676f-8b8dh     1/1     Running   0          119m
+canary-v1-64598c676f-hnn59     1/1     Running   0          119m
+canary-v1-64598c676f-qb9g8     1/1     Running   0          119m
+canary-v2-5dc9c56687-24jfx     1/1     Running   0          30m 
+canary-v2-5dc9c56687-qdt86     1/1     Running   0          31m 
+canary-v2-5dc9c56687-t95mh     1/1     Running   0          30m 
+hello-world-794458d64d-42b2g   1/1     Running   0          75m 
+nginx                          1/1     Running   0          46m 
