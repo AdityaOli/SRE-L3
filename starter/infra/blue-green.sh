@@ -35,7 +35,7 @@ function green_deploy {
 
 
 # Begin canary deployment
-while [ $(kubectl get pods -n udacity | grep -c blue) -gt 0 ]
+while [ $(kubectl get pods -n udacity | grep -c green) -eq 0 ]
 do
   manual_verification
   green_deploy
