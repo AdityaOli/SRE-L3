@@ -1,0 +1,23 @@
+adity@Optimus MINGW64 /d/Code/SRE-L3/starter/infra (master)
+$ kubectl get pods
+NAME                                  READY   STATUS    RESTARTS   AGE
+bloaty-mcbloatface-58c98b98d8-2ww5d   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-5jgf2   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-5rgwh   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-86g4k   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-bqj5w   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-c8r6s   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-f8xkp   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-fqdwz   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-gxbhf   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-h5btd   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-j9wjw   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-khsbl   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-kp6xl   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-pfnh2   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-phkbk   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-v5vj4   1/1     Running   0          7m53s
+bloaty-mcbloatface-58c98b98d8-vgqth   1/1     Running   0          7m53s
+green-5cdd96c9b4-5q6wf                1/1     Running   0          10m
+green-5cdd96c9b4-ck45g                1/1     Running   0          10m
+green-5cdd96c9b4-l9m8l                1/1     Running   0          10m
